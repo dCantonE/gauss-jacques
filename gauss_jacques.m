@@ -17,7 +17,7 @@ function [InvMod, I] = gauss_jacques(K,m)
 %   n = 10; % dimesion of matrix
 %   K = randi(100,n,n); % it define a square matrix
 %   m = 89; % a prime number   
-%   [x,y,d] = gauss_jacques(K, m); 
+%   [InvMod, I] = gauss_jacques(K, m); 
 %
 % References:
 %  https://www.uaq.mx/investigacion/revista_ciencia@uaq/ArchivosPDF/v11-n1/art14_numerada-VF.pdf
