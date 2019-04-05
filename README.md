@@ -5,14 +5,20 @@ Method to obtain modular inverse matrices sized n x n considering computational 
 ## Example
 
 ```matlab
-n = 10; % dimesion of matrix
-K = randi(100,n,n); % it define a square matrix
-m = 89; % a prime number   
+n = 10; % size of the matrix
+K = randi(100,n,n); % generate a randon matrix with size 'n'
+m = 89; % modulus -> prime number   
 [InvMod, I] = gauss_jacques(K, m); 
 ```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## References
+
+*  https://www.uaq.mx/investigacion/revista_ciencia@uaq/ArchivosPDF/v11-n1/art14_numerada-VF.pdf
+*  https://savannah.gnu.org/patch/?9691
+*  https://www.npmjs.com/package/gauss-jacques
 
 ## Intellectual author
 * **Fausto Abraham Jacques-García** - *jacques@uaq.edu.mx* - [Gauss-Jacques Method](https://www.researchgate.net/publication/327895519_The_proposed_Gauss-Jacques_method_to_obtain_modular_inverse_matrices_variable_sized_without_a_theoretical_limit)
