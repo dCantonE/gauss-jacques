@@ -4,6 +4,8 @@ Method to obtain modular inverse matrices sized n x n considering computational 
 
 ## Example
 
+### MATLAB
+
 ```matlab
 n = 10; % size of the matrix
 K = randi(100,n,n); % generate a randon matrix with size 'n'
