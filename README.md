@@ -1,6 +1,6 @@
 # Gauss-Jacques Method
 
-The Gauss-Jacques method it works for calculate of modular inverse matrices variable sized using for applications in cryptography. This work is an important contribution to knowledge and direct appliance in data security problems in computer science context.
+Method to obtain modular inverse matrices sized n x n considering computational efficiency and applications in symmetric cryptography. It is also discussed about some phenomenon in linear arithmetic spaces and some theorems found. This work is an important contribution to knowledge and direct appliance in data security problems in computer science context. Based on research and experiments conducted, it was observed that this method is precise, defined and finite, so it can be programmed in any computer language.
 
 ## Example
 
